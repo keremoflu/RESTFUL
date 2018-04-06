@@ -1,18 +1,12 @@
 Postman Info
 
-
-Headers
-
-COntent-Type : application/json
+//Headers
+Content-Type : application/json
 
 
 
-adding body example
-
+//adding body example
 {
-
-"user_name" : "Jason",
-
-"user_job" : "Engineer"
-
+  "user_name" : "Jason",
+  "user_job" : "Engineer"
 }
