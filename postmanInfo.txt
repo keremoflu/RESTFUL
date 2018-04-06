@@ -1,0 +1,18 @@
+Postman Info
+
+
+Headers
+
+COntent-Type : application/json
+
+
+
+adding body example
+
+{
+
+"user_name" : "Jason",
+
+"user_job" : "Engineer"
+
+}
