@@ -37,3 +37,7 @@ if($query_count->rowCount()){
 }else{
     echo "no result";
 }
+
+ //pdo update
+    $sql_update = $connect->prepare("UPDATE pdovalues SET user_like=? WHERE id=?");
+    $sql_update->execute(array("3","26"));
