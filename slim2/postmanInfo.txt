@@ -3,7 +3,7 @@ Postman Info
 
 Headers
 
-COntent-Type : application/json
+Content-Type : application/json
 
 
 
