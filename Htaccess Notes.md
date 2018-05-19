@@ -5,9 +5,10 @@
 </FilesMatch>
 
 
-deny directories
 
-public/config denied, not public/config/db.php
+- DENY DIRECTORIES
+
+-- public/config denied, not public/config/db.php
 
 
 deny specific directory
