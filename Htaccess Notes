@@ -1,4 +1,4 @@
-*deny to .htaccess file itself;
+- DENY TO .htaccess FILE ITSELF
 
 <FilesMatch "^\.ht">
         Require all denied
