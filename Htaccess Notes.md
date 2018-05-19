@@ -8,10 +8,10 @@
 
 - DENY DIRECTORIES
 
--- public/config denied, not public/config/db.php
+public/config denied, not public/config/db.php
 
 
-deny specific directory
+- DENY SPECIFIC DIRECTORY
 
 deny this; public_html/src/config
 not this;  public_html/src
@@ -19,8 +19,7 @@ not this;  public_html/src
 RewriteCond %{REQUEST_URI} ^/public_html/src/config [NC]
 RewriteRule .* - [F,L]
 
-
-deny specific file in all directories
+- DENY SPECIFIC FILE IN ALL DIRECTORIES
 
 this; config/src/db.php & config/db.php etc.
 
